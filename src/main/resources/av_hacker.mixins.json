@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.iafenvoy.av_hacker.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "av_hacker.refmap.json",
+  "mixins": [
+    "DeleteSBNpcMessageMixin",
+    "SBMessageMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
